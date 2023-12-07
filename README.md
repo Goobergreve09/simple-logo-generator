@@ -38,6 +38,9 @@ Now that the necessary files and are applications installed, it's  time to gener
 
 6. Lastly, reveal the logo using the *file explorer*
 
+   ![usageshapes](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/c723ef03-4005-44a2-aab9-d6ae9e9d2586)
+
+
 ## Contributions
 
 Special thanks to:
