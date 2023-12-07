@@ -28,7 +28,13 @@ My main motivation for this application was for a SIMPLE and quick way to create
 
 ## Contributions
 
+Special thanks to:
 
+[HTML Color Codes](https://htmlcolorcodes.com/)
+
+[Traversy Media: ECMAScript Modules in Node](https://www.youtube.com/watch?v=teDVlOjOCT0&t=455s)
+
+[Node.js Documentation](https://nodejs.org/api/esm.html)
 
 
 ## License
