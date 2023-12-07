@@ -1,3 +1,5 @@
+// ECMAScript modules are the official standard format to package JavaScript code for reuse (https://nodejs.org/api/esm.html)
+// Import using an ES module
 import inquirer from "inquirer";
 import { promises } from "fs";
 const { writeFile } = promises;

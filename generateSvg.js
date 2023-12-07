@@ -26,4 +26,5 @@ const generateSvg = (answers) => {
     return "Uh-oh...Something went wrong"
 }
 
+// Export using an ES module
 export { generateSvg }; 
