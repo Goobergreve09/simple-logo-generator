@@ -54,4 +54,3 @@ If you have any additional questions you can contact me by using the following:
  Email Address: gregory.greve@yahoo.com
 
 
-# simple-logo-generator
