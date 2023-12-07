@@ -24,7 +24,19 @@ My main motivation for this application was for a SIMPLE and quick way to create
 
 ## Usage
 
+Now that the necessary files and are applications installed, it's  time to generate the logo.svg In VS.code *Follow these steps*.
 
+1. Navigate to the desired directory
+
+2. Right-Click on the javascript file titled *index.js* and click *Open Integrated Terminal*
+
+3. type *node index.js* into the command line
+
+4. Answer the prompts in the command line - you may use hexadecimals when choosing a color ([HTML Color Codes](https://htmlcolorcodes.com/))
+
+5. Once finished you will see *Generatedlogo.svg* in green text
+
+6. Lastly, reveal the logo using the *file explorer*
 
 ## Contributions
 
