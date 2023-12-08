@@ -1,9 +1,7 @@
-// ECMAScript modules are the official standard format to package JavaScript code for reuse (https://nodejs.org/api/esm.html)
-// Import using an ES module
-import inquirer from "inquirer";
-import { promises } from "fs";
-const { writeFile } = promises;
-import { generateSvg } from "./generateSvg.js";
+
+const inquirer = require("inquirer");
+const { writeFile } = require("fs/promises");
+const generateSvg = require("./lib/generateSvg.js")
 
 const fileName = "logo.svg";
 
@@ -16,9 +14,8 @@ const successGreen = `\x1b[32m${success}\x1b[0m`;
 
 const shapes = ["circle", "square", "triangle"];
 
-const init = async () => {
-  try {
-    const answers = await inquirer.prompt([
+const promptUser = () => {
+  return inquirer.prompt([
       {
         type: "input",
         name: "acronym",
@@ -41,12 +38,39 @@ const init = async () => {
         message: `\nWhat color would you like your shape to be? You can type a color or use a hexadecimal. ${enterYellow}\n`,
       },
     ]);
+  };
 
-    await writeFile(fileName, generateSvg(answers));
-    console.log(`${successGreen}`);
-  } catch (err) {
-    console.error(err);
-  }
-};
+    const init = () => {
+      promptUser()
+      .then((answers) => {
+        // Adding the length validation for the acronym
+        testLength(answers);
+        testHexidecimal (answers);
+        return answers;
+      })
+        .then((answers) => writeFile(fileName, generateSvg(answers)))
+        .then(() => console.log(`${successGreen}`))
+        .catch((err) => console.error(err));
+    };
 
 init();
+
+function testLength (answers) {
+  if(`${answers.acronym}`.length > 3) {
+    throw new Error('Acronym must not be more than 3 characters long.');
+  }
+  }
+
+  function testHexidecimal (answers) {
+    const pattern = /^[A-Za-z0-9#]+$/;
+
+    if (!pattern.test(answers.shapeColor) || !pattern.test(answers.acronymColor)) {
+      throw new Error('A hexidecimal must only contain letters, numbers, and pound symbol (ex. #00013F)');
+    }
+  }
+
+
+  module.exports = {
+    testLength,
+    testHexidecimal,
+  };

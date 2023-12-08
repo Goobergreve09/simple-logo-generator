@@ -35,7 +35,6 @@ Before using this generator you first need to install it. Even before that make 
    
 **6.** Next - Install the inquirer by typing *'npm install inquirer'* into the command line
    
-**7.** Lastly, once the inquirer has finished install the fs by typing *'npm install fs'* into the command line.
 
 ![placeholder1](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/8d1f71ba-9a26-4d34-bde3-ff7d40f85161)
 
