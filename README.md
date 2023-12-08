@@ -25,7 +25,7 @@ Before using this generator you first need to install it. Even before that make 
 **1.** Clone the code preferably using an SSH from the green button that says *'Code'* at the top of this page
 ![greenCode](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/385b6da8-bf3e-4295-aef4-a62078802b3b)
 
-**2.** Open gitbash and `'cd` into the directory you'd like it cloned
+**2.** Open gitbash and `cd` into the directory you'd like it cloned
    
 **3.** type `git clone` and then paste the url previously copied and hit enter
 
