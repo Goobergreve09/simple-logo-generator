@@ -65,9 +65,11 @@ Now that the necessary files and are applications installed, it's  time to gener
 
 Special thanks to:
 
-[HTML Color Codes](https://htmlcolorcodes.com/)
+*[HTML Color Codes](https://htmlcolorcodes.com/)
 
-[Node.js Documentation](https://nodejs.org/api/esm.html)
+*[Node.js Documentation](https://nodejs.org/api/esm.html)
+
+*[Jest.js Documentation](https://jestjs.io/docs/jest-platform)
 
 
 ## License
