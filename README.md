@@ -71,7 +71,7 @@ Special thanks to:
 
 * [Jest.js Documentation](https://jestjs.io/docs/jest-platform)
 
-* [SVG documentation - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
+* [SVG Documentation - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 
 ## License
 
