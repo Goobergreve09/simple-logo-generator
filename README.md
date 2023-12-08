@@ -27,13 +27,13 @@ Before using this generator you first need to install it. Even before that make 
 
 **2.** Open gitbash and *'cd'* into the directory you'd like it cloned
    
-**3.** type *'git clone'* and then paste the url previously copied and hit enter
+**3.** type `git clone` and then paste the url previously copied and hit enter
 
 **4.** *'cd'* into the simple-logo-generator directory
    
-**5.** You'll need to install the Node Package manager because it does not come with the copied code. in the command line type *'npm init -y'*
+**5.** You'll need to install the Node Package manager because it does not come with the copied code. in the command line type `npm init -y`
    
-**6.** Next - Install the inquirer by typing *'npm install inquirer'* into the command line
+**6.** Next - Install the inquirer by typing `npm install inquirer` into the command line
    
 
 ![placeholder1](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/8d1f71ba-9a26-4d34-bde3-ff7d40f85161)
