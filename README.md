@@ -50,7 +50,7 @@ Now that the necessary files and are applications installed, it's  time to gener
 
 2. Right-Click on the javascript file titled *index.js* and click *Open Integrated Terminal*
 
-3. type *node index.js* into the command line
+3. type `node index.js` into the command line
 
 4. Answer the prompts in the command line - you may use hexadecimals when choosing a color ([HTML Color Codes](https://htmlcolorcodes.com/))
 
@@ -66,8 +66,6 @@ Now that the necessary files and are applications installed, it's  time to gener
 Special thanks to:
 
 [HTML Color Codes](https://htmlcolorcodes.com/)
-
-[Traversy Media: ECMAScript Modules in Node](https://www.youtube.com/watch?v=teDVlOjOCT0&t=455s)
 
 [Node.js Documentation](https://nodejs.org/api/esm.html)
 
