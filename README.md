@@ -5,7 +5,7 @@
   
 ## Description
 
-I have created a simple logo generator to use for projects and applications for myself as a feelance web developer. It is created completely with Javascript. Using a 3 letter acronym like DET, or whatever is type through an input prompt, it creates the acronym for you logo. Then the prompt asks for a shape that you would like your logo to be. You also get to select what color scheme you would like my typing in a color or pasting a hexadecimal into the input field. 
+I have created a simple logo generator to use for projects and applications for myself as a feelance web developer. It is created completely with Javascript. Using a 3 letter acronym like DET, or whatever is typed through an input prompt, it creates the acronym for you logo. Then the prompt asks for a shape that you would like your logo to be. You also get to select what color scheme you would like my typing in a color or pasting a hexadecimal into the input field. 
 
 My main motivation for this application was for a SIMPLE and quick way to create a logo for myself and/or others whilst saving money and not paying a graphic designer. 
   
