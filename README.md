@@ -5,7 +5,7 @@
   
 ## Description
 
-I have created a simple logo generator to use for projects and applications for myself as a feelance web developer. It is created completely with Javascript. Using a 3 letter acronym like DET, or whatever is type through an input prompt, it creates the acronym for you logo. Then the prompt asks for a shape that you would like your logo to be. You also get to select what color scheme you would like my typing in a color or pasting a hexadecimal into the input field. 
+I have created a simple logo generator to use for projects and applications for myself as a feelance web developer. It is created completely with Javascript. Using a 3 letter acronym like DET, or whatever is typed through an input prompt, it creates the acronym for you logo. Then the prompt asks for a shape that you would like your logo to be. You also get to select what color scheme you would like my typing in a color or pasting a hexadecimal into the input field. 
 
 My main motivation for this application was for a SIMPLE and quick way to create a logo for myself and/or others whilst saving money and not paying a graphic designer. 
   
@@ -25,15 +25,15 @@ Before using this generator you first need to install it. Even before that make 
 **1.** Clone the code preferably using an SSH from the green button that says *'Code'* at the top of this page
 ![greenCode](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/385b6da8-bf3e-4295-aef4-a62078802b3b)
 
-**2.** Open gitbash and *'cd'* into the directory you'd like it cloned
+**2.** Open gitbash and `cd` into the directory you'd like it cloned
    
-**3.** type *'git clone'* and then paste the url previously copied and hit enter
+**3.** type `git clone` and then paste the url previously copied and hit enter
 
-**4.** *'cd'* into the simple-logo-generator directory
+**4.** `cd` into the simple-logo-generator directory
    
-**5.** You'll need to install the Node Package manager because it does not come with the copied code. in the command line type *'npm init -y'*
+**5.** You'll need to install the Node Package manager because it does not come with the copied code. in the command line type `npm init -y`
    
-**6.** Next - Install the inquirer by typing *'npm install inquirer'* into the command line
+**6.** Next - Install the inquirer by typing `npm install inquirer` into the command line
    
 
 ![placeholder1](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/8d1f71ba-9a26-4d34-bde3-ff7d40f85161)
@@ -50,7 +50,7 @@ Now that the necessary files and are applications installed, it's  time to gener
 
 2. Right-Click on the javascript file titled *index.js* and click *Open Integrated Terminal*
 
-3. type *node index.js* into the command line
+3. type `node index.js` into the command line
 
 4. Answer the prompts in the command line - you may use hexadecimals when choosing a color ([HTML Color Codes](https://htmlcolorcodes.com/))
 
@@ -65,12 +65,13 @@ Now that the necessary files and are applications installed, it's  time to gener
 
 Special thanks to:
 
-[HTML Color Codes](https://htmlcolorcodes.com/)
+* [HTML Color Codes](https://htmlcolorcodes.com/)
 
-[Traversy Media: ECMAScript Modules in Node](https://www.youtube.com/watch?v=teDVlOjOCT0&t=455s)
+* [Node.js Documentation](https://nodejs.org/api/esm.html)
 
-[Node.js Documentation](https://nodejs.org/api/esm.html)
+* [Jest.js Documentation](https://jestjs.io/docs/jest-platform)
 
+* [SVG Documentation - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 
 ## License
 
