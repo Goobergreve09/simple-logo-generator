@@ -73,6 +73,10 @@ function testHexidecimal(answers) {
   }
 }
 
+// function testShapecolor (answers) {
+
+// }
+
 module.exports = {
   testLength,
   testHexidecimal,
