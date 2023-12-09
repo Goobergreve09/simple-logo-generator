@@ -57,7 +57,7 @@ Now that the necessary files and applications are installed, it's  time to gener
 
 6. Tests to test functionality can be used by simply typing `npm test` into the CLI.
 
-![test](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/e82af825-3a52-48d8-8dab-44e432fb7ff4).
+![test](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/e82af825-3a52-48d8-8dab-44e432fb7ff4)
 
 
 
