@@ -55,6 +55,11 @@ Now that the necessary files and are applications installed, it's  time to gener
 
    ![usageshapes](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/c723ef03-4005-44a2-aab9-d6ae9e9d2586)
 
+6. Tests to test functionality can be used by simply typing `npm test` into the CLI.
+
+![test](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/e82af825-3a52-48d8-8dab-44e432fb7ff4)
+
+
 
 ## Demonstration
 
