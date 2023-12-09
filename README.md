@@ -12,31 +12,28 @@ My main motivation for this application was for a SIMPLE and quick way to create
 ## Table of Contents
 
 1. [Description](#description)  
-2. [How to Install](#installation)  
+2. [How to Setup](#setup)  
 3. [How to Use](#usage)  
-4. [Licensing](#license)  
-5. [Testing](#tests)  
-6. [Contact Me](#questions)
+4. [Demonstration](#demonstration)
+4. [Licensing](#license)   
+5. [Contact Me](#questions)
 
-## Installation
+## Setup
 
-Before using this generator you first need to install it. Even before that make sure you have [**VS-Code**](https://code.visualstudio.com/download), [**Gitbash**](https://gitforwindows.org/), as well as the latest version of [**node.js**](https://nodejs.org/en/download) already installed onto your pc. If you have those 3 already installed, *Follow these steps:*
+Before using this generator I first had to make sure I had the necessary applications installed. The applications indlude [**VS-Code**](https://code.visualstudio.com/download), [**Gitbash**](https://gitforwindows.org/), as well as the latest version of [**node.js**](https://nodejs.org/en/download). Next I had to *Follow these steps:*
 
-**1.** Clone the code preferably using an SSH from the green button that says *'Code'* at the top of this page
-![greenCode](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/385b6da8-bf3e-4295-aef4-a62078802b3b)
+**1.** Within my project directory I am using the Node Package Manager. I installed this by typing `npm i` into the CLI.
 
-**2.** Open gitbash and `cd` into the directory you'd like it cloned
+**2.** In this project I am using nodes *inquirer* package, so I then installed *inquirer* by typing `npm install inquirer` into the CLI.
    
-**3.** type `git clone` and then paste the url previously copied and hit enter
+**3.** Also in this project I have created tests to see if the app is functioning as expected. To run these tests I am using nodes *jest* package, so I then installed *jest* by typing `npm install jest` into the CLI.
 
-**4.** `cd` into the simple-logo-generator directory
+**4.** In order to push my project to the github repository I had to create a *.gitignore* file with the content *node_modules* so that the node modules would not be pushed.
    
-**5.** You'll need to install the Node Package manager because it does not come with the copied code. in the command line type `npm init -y`
-   
-**6.** Next - Install the inquirer by typing `npm install inquirer` into the command line
-   
+**5.** Once this was finished, my project is now ready to run.
+     
 
-![placeholder1](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/8d1f71ba-9a26-4d34-bde3-ff7d40f85161)
+![setup](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/83a11d17-2fb4-4c7e-9143-7316d5620510)
 
 
 
@@ -46,20 +43,24 @@ Before using this generator you first need to install it. Even before that make 
 
 Now that the necessary files and are applications installed, it's  time to generate the logo.svg In VS.code *Follow these steps*.
 
-1. Navigate to the desired directory
+1. Right-Click on the javascript file titled *index.js* and click *Open Integrated Terminal*
 
-2. Right-Click on the javascript file titled *index.js* and click *Open Integrated Terminal*
+2. type `node index.js` into the command line
 
-3. type `node index.js` into the command line
+3. Answer the prompts in the command line - hexidecimals may be used when choosing a color ([HTML Color Codes](https://htmlcolorcodes.com/))
 
-4. Answer the prompts in the command line - you may use hexadecimals when choosing a color ([HTML Color Codes](https://htmlcolorcodes.com/))
+4. Once finished the green text *Generatedlogo.svg* will be displayed to imply it was a success.
 
-5. Once finished you will see *Generatedlogo.svg* in green text
-
-6. Lastly, reveal the logo using the *file explorer*
+5. Lastly, reveal the logo using the *file explorer*
 
    ![usageshapes](https://github.com/Goobergreve09/simple-logo-generator/assets/143923830/c723ef03-4005-44a2-aab9-d6ae9e9d2586)
 
+
+## Demonstration
+
+You can view a short video demonstration via youtube by clicking 'Demo Link' below:
+
+[Demo Link](https://www.youtube.com/watch?v=2riNSkRb9rQ)
 
 ## Contributions
 
@@ -80,10 +81,6 @@ The software license selected for this application *is as follows*:
 **Massachusetts Institute of Technology License**
 
 [MIT](https://opensource.org/licenses/MIT)
-
-
-
-## Tests
 
 
 
