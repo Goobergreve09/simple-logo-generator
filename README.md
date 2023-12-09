@@ -41,7 +41,7 @@ Before using this generator I first had to make sure I had the necessary applica
 
 ## Usage
 
-Now that the necessary files and are applications installed, it's  time to generate the logo.svg In VS.code *Follow these steps*.
+Now that the necessary files and applications installed, it's  time to generate the logo.svg In VS.code *Follow these steps*.
 
 1. Right-Click on the javascript file titled *index.js* and click *Open Integrated Terminal*
 
