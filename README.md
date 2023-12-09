@@ -20,7 +20,7 @@ My main motivation for this application was for a SIMPLE and quick way to create
 
 ## Setup
 
-Before using this generator I first had to make sure I had the necessary applications installed. The applications indlude [**VS-Code**](https://code.visualstudio.com/download), [**Gitbash**](https://gitforwindows.org/), as well as the latest version of [**node.js**](https://nodejs.org/en/download). Next I had to *Follow these steps:*
+Before using this generator I first had to make sure I had the necessary applications installed. The applications include [**VS-Code**](https://code.visualstudio.com/download), [**Gitbash**](https://gitforwindows.org/), as well as the latest version of [**node.js**](https://nodejs.org/en/download). Next I had to *Follow these steps:*
 
 **1.** Within my project directory I am using the Node Package Manager. I installed this by typing `npm i` into the CLI.
 
@@ -41,7 +41,7 @@ Before using this generator I first had to make sure I had the necessary applica
 
 ## Usage
 
-Now that the necessary files and are applications installed, it's  time to generate the logo.svg In VS.code *Follow these steps*.
+Now that the necessary files and applications are installed, it's  time to generate the logo.svg In VS.code *Follow these steps*.
 
 1. Right-Click on the javascript file titled *index.js* and click *Open Integrated Terminal*
 
