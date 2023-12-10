@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const { writeFile } = require("fs/promises");
-const generateShapes = require("./lib/shapes.js");
+const { generateShapes } = require("./lib/shapes.js");
 
 const fileName = "logo.svg";
 
@@ -72,10 +72,6 @@ function testHexidecimal(answers) {
     );
   }
 }
-
-// function testShapecolor (answers) {
-
-// }
 
 module.exports = {
   testLength,
